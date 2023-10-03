@@ -1,0 +1,509 @@
+
+
+Error occured at 2023-10-03 15:54:20.346629!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".css-dybeca"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 15:59:07.072648!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB43246D]
+	(No symbol) [0x00007FF6DB433F5F]
+	(No symbol) [0x00007FF6DB434050]
+	(No symbol) [0x00007FF6DB46E184]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:02:15.625231!
+Error info:
+Proxy: 15.204.161.192:18080
+
+'list' object has no attribute 'click'
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:03:08.622099!
+Error info:
+Proxy: 15.204.161.192:18080
+
+list index out of range
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:05:54.651648!
+Error info:
+Proxy: 15.204.161.192:18080
+
+list index out of range
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:06:00.351741!
+Error info:
+Proxy: 15.204.161.192:18080
+
+list index out of range
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:06:07.264314!
+Error info:
+Proxy: 15.204.161.192:18080
+
+list index out of range
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:06:13.031679!
+Error info:
+Proxy: 15.204.161.192:18080
+
+list index out of range
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:28:30.293411!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.132)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB429853]
+	(No symbol) [0x00007FF6DB41CB9C]
+	(No symbol) [0x00007FF6DB41DDF7]
+	(No symbol) [0x00007FF6DB41CF95]
+	(No symbol) [0x00007FF6DB41C00E]
+	(No symbol) [0x00007FF6DB41BFB3]
+	(No symbol) [0x00007FF6DB41A82E]
+	(No symbol) [0x00007FF6DB41B123]
+	(No symbol) [0x00007FF6DB42FE4F]
+	(No symbol) [0x00007FF6DB4A7917]
+	(No symbol) [0x00007FF6DB48EAAA]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:28:35.423605!
+Error info:
+Proxy: 15.204.161.192:18080
+
+list index out of range
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:29:48.139199!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".css-17kmbxe"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:30:51.849218!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"css-17kmbxe"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:37:15.767814!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: stale element reference: stale element not found
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB43B1FA]
+	(No symbol) [0x00007FF6DB432859]
+	(No symbol) [0x00007FF6DB431712]
+	(No symbol) [0x00007FF6DB433F5F]
+	(No symbol) [0x00007FF6DB434050]
+	(No symbol) [0x00007FF6DB46F1CC]
+	(No symbol) [0x00007FF6DB46F2E2]
+	(No symbol) [0x00007FF6DB467B8F]
+	(No symbol) [0x00007FF6DB48EAAA]
+	(No symbol) [0x00007FF6DB465036]
+	(No symbol) [0x00007FF6DB48ECC0]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:38:49.539359!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".css-17kmbxe"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:39:06.029798!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="identifierId"]"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:44:08.163413!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.132)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB40DEE8]
+	(No symbol) [0x00007FF6DB493237]
+	(No symbol) [0x00007FF6DB4A6C6F]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:44:25.355797!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="identifier"]"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:46:58.962753!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.132)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB40DEE8]
+	(No symbol) [0x00007FF6DB493237]
+	(No symbol) [0x00007FF6DB4A6C6F]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:47:19.120351!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".whsOnd"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-03 16:48:23.873462!
+Error info:
+Proxy: 15.204.161.192:18080
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[aria-label="E-mailadres of telefoonnummer"]"}
+  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DB607892+54818]
+	(No symbol) [0x00007FF6DB576AC2]
+	(No symbol) [0x00007FF6DB42DA3B]
+	(No symbol) [0x00007FF6DB46E4FC]
+	(No symbol) [0x00007FF6DB46E67C]
+	(No symbol) [0x00007FF6DB4A9627]
+	(No symbol) [0x00007FF6DB48EAEF]
+	(No symbol) [0x00007FF6DB4A75A2]
+	(No symbol) [0x00007FF6DB48E883]
+	(No symbol) [0x00007FF6DB463691]
+	(No symbol) [0x00007FF6DB4648D4]
+	GetHandleVerifier [0x00007FF6DB96B992+3610402]
+	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
+	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
+	GetHandleVerifier [0x00007FF6DB6A3646+693206]
+	(No symbol) [0x00007FF6DB581628]
+	(No symbol) [0x00007FF6DB57D934]
+	(No symbol) [0x00007FF6DB57DA62]
+	(No symbol) [0x00007FF6DB56E113]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
