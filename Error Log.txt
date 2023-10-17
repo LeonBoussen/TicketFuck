@@ -1,31 +1,36 @@
-
-
-Error occured at 2023-10-03 15:54:20.346629!
+Error occured at 2023-10-11 15:19:16.018952!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such element: Unable to locate element: {"method":"css selector","selector":".css-dybeca"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -33,35 +38,63 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 15:59:07.072648!
+Error occured at 2023-10-11 15:19:42.357680!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+
+    Error 275 for command:
+        open /files/audio/Win.wav
+    Kan het opgegeven bestand niet vinden. Controleer of het juiste pad en de juiste bestandsnaam zijn ingevoerd.
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:19:54.717180!
+Error info:
+Proxy: 178.237.181.218:8080
+
+
+    Error 263 for command:
+        open /files/audio/Win.wav
+    Het opgegeven apparaat is niet geopend of wordt niet herkend door MCI.
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:23:53.578105!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB43246D]
-	(No symbol) [0x00007FF6DB433F5F]
-	(No symbol) [0x00007FF6DB434050]
-	(No symbol) [0x00007FF6DB46E184]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -69,93 +102,223 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:02:15.625231!
+Error occured at 2023-10-11 15:26:29.132362!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-'list' object has no attribute 'click'
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF6102FE528]
+	(No symbol) [0x00007FF610383B77]
+	(No symbol) [0x00007FF6103975BF]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
 
 --------------------------------
 
 
-Error occured at 2023-10-03 16:03:08.622099!
+Error occured at 2023-10-11 15:26:58.413117!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-list index out of range
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF6102FE528]
+	(No symbol) [0x00007FF610383B77]
+	(No symbol) [0x00007FF6103975BF]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
 
 --------------------------------
 
 
-Error occured at 2023-10-03 16:05:54.651648!
+Error occured at 2023-10-11 15:28:12.676116!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-list index out of range
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
 
 --------------------------------
 
 
-Error occured at 2023-10-03 16:06:00.351741!
+Error occured at 2023-10-11 15:46:58.387731!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-list index out of range
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
 
 --------------------------------
 
 
-Error occured at 2023-10-03 16:06:07.264314!
+Error occured at 2023-10-11 15:50:19.372684!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-list index out of range
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
 
 --------------------------------
 
 
-Error occured at 2023-10-03 16:06:13.031679!
+Error occured at 2023-10-11 15:51:03.460906!
 Error info:
-Proxy: 15.204.161.192:18080
-
-list index out of range
-
---------------------------------
-
-
-Error occured at 2023-10-03 16:28:30.293411!
-Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
 Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB429853]
-	(No symbol) [0x00007FF6DB41CB9C]
-	(No symbol) [0x00007FF6DB41DDF7]
-	(No symbol) [0x00007FF6DB41CF95]
-	(No symbol) [0x00007FF6DB41C00E]
-	(No symbol) [0x00007FF6DB41BFB3]
-	(No symbol) [0x00007FF6DB41A82E]
-	(No symbol) [0x00007FF6DB41B123]
-	(No symbol) [0x00007FF6DB42FE4F]
-	(No symbol) [0x00007FF6DB4A7917]
-	(No symbol) [0x00007FF6DB48EAAA]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -163,41 +326,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:28:35.423605!
+Error occured at 2023-10-11 15:51:16.872502!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-list index out of range
-
---------------------------------
-
-
-Error occured at 2023-10-03 16:29:48.139199!
-Error info:
-Proxy: 15.204.161.192:18080
-
-Message: no such element: Unable to locate element: {"method":"css selector","selector":".css-17kmbxe"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -205,32 +366,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:30:51.849218!
+Error occured at 2023-10-11 15:51:48.663522!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such element: Unable to locate element: {"method":"css selector","selector":"css-17kmbxe"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -238,39 +406,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:37:15.767814!
+Error occured at 2023-10-11 15:53:49.626502!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: stale element reference: stale element not found
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB43B1FA]
-	(No symbol) [0x00007FF6DB432859]
-	(No symbol) [0x00007FF6DB431712]
-	(No symbol) [0x00007FF6DB433F5F]
-	(No symbol) [0x00007FF6DB434050]
-	(No symbol) [0x00007FF6DB46F1CC]
-	(No symbol) [0x00007FF6DB46F2E2]
-	(No symbol) [0x00007FF6DB467B8F]
-	(No symbol) [0x00007FF6DB48EAAA]
-	(No symbol) [0x00007FF6DB465036]
-	(No symbol) [0x00007FF6DB48ECC0]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -278,32 +446,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:38:49.539359!
+Error occured at 2023-10-11 15:53:53.505511!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such element: Unable to locate element: {"method":"css selector","selector":".css-17kmbxe"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -311,32 +486,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:39:06.029798!
+Error occured at 2023-10-11 15:54:54.961280!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="identifierId"]"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -344,31 +526,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:44:08.163413!
+Error occured at 2023-10-11 15:55:03.513157!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=117.0.5938.132)
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB40DEE8]
-	(No symbol) [0x00007FF6DB493237]
-	(No symbol) [0x00007FF6DB4A6C6F]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -376,32 +566,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:44:25.355797!
+Error occured at 2023-10-11 15:55:22.746249!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="identifier"]"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -409,31 +606,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:46:58.962753!
+Error occured at 2023-10-11 15:55:59.957599!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=117.0.5938.132)
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB40DEE8]
-	(No symbol) [0x00007FF6DB493237]
-	(No symbol) [0x00007FF6DB4A6C6F]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -441,32 +646,39 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:47:19.120351!
+Error occured at 2023-10-11 15:56:03.722214!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such element: Unable to locate element: {"method":"css selector","selector":".whsOnd"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 
@@ -474,32 +686,2759 @@ Stacktrace:
 --------------------------------
 
 
-Error occured at 2023-10-03 16:48:23.873462!
+Error occured at 2023-10-11 15:56:07.710368!
 Error info:
-Proxy: 15.204.161.192:18080
+Proxy: 178.237.181.218:8080
 
-Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[aria-label="E-mailadres of telefoonnummer"]"}
-  (Session info: chrome=117.0.5938.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6DB607892+54818]
-	(No symbol) [0x00007FF6DB576AC2]
-	(No symbol) [0x00007FF6DB42DA3B]
-	(No symbol) [0x00007FF6DB46E4FC]
-	(No symbol) [0x00007FF6DB46E67C]
-	(No symbol) [0x00007FF6DB4A9627]
-	(No symbol) [0x00007FF6DB48EAEF]
-	(No symbol) [0x00007FF6DB4A75A2]
-	(No symbol) [0x00007FF6DB48E883]
-	(No symbol) [0x00007FF6DB463691]
-	(No symbol) [0x00007FF6DB4648D4]
-	GetHandleVerifier [0x00007FF6DB96B992+3610402]
-	GetHandleVerifier [0x00007FF6DB9C1860+3962352]
-	GetHandleVerifier [0x00007FF6DB9B9D4F+3930847]
-	GetHandleVerifier [0x00007FF6DB6A3646+693206]
-	(No symbol) [0x00007FF6DB581628]
-	(No symbol) [0x00007FF6DB57D934]
-	(No symbol) [0x00007FF6DB57DA62]
-	(No symbol) [0x00007FF6DB56E113]
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:56:11.557766!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:56:15.570719!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:56:19.095032!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:56:23.220894!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:57:16.478238!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:57:31.375543!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:57:35.178531!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:57:49.055567!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:57:52.748237!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:58:00.476902!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:58:09.721950!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:58:13.567099!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:58:17.411334!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:58:21.256040!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:58:46.931888!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:59:43.510298!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:59:53.319876!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 15:59:56.843695!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:00:50.265476!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:00:54.059509!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:01:43.737499!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:02:26.244372!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:02:30.104306!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:02:33.844282!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:03:38.438272!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:03:42.178593!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:04:01.639123!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:04:22.455839!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:04:26.271398!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:04:36.611405!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:04:46.330999!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:05:03.039407!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:06:23.992437!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:06:27.796397!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:06:31.631618!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:06:46.969425!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:06:50.737534!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:06:59.737492!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:07:16.454845!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:07:44.080914!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:07:47.842031!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:08:02.527412!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:08:06.387316!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:08:33.020770!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:08:41.186904!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:08:48.879123!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:09:08.190249!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:09:25.287310!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:09:34.196336!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:11:36.726660!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:11:44.503303!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:12:41.210918!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:13:18.628344!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:13:22.243632!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:13:31.591738!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:13:39.253711!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:13:43.058676!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:13:50.773684!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:13:54.502214!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:15:59.196716!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:16:03.028868!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:23:30.923004!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:23:53.046275!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:24:30.571339!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:24:34.301932!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:25:01.212688!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:25:08.968768!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
+	BaseThreadInitThunk [0x00007FFA490A257D+29]
+	RtlUserThreadStart [0x00007FFA4B16AA68+40]
+
+
+--------------------------------
+
+
+Error occured at 2023-10-11 16:25:24.220137!
+Error info:
+Proxy: 178.237.181.218:8080
+
+Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=117.0.5938.150)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6104F7D12+55474]
+	(No symbol) [0x00007FF6104677C2]
+	(No symbol) [0x00007FF61031E0EB]
+	(No symbol) [0x00007FF610319E93]
+	(No symbol) [0x00007FF61030D1DC]
+	(No symbol) [0x00007FF61030E437]
+	(No symbol) [0x00007FF61030D5D5]
+	(No symbol) [0x00007FF61030C64E]
+	(No symbol) [0x00007FF61030C5F3]
+	(No symbol) [0x00007FF61030AE6E]
+	(No symbol) [0x00007FF61030B763]
+	(No symbol) [0x00007FF6103204FF]
+	(No symbol) [0x00007FF610398267]
+	(No symbol) [0x00007FF61037F15A]
+	(No symbol) [0x00007FF610397EF2]
+	(No symbol) [0x00007FF61037EF33]
+	(No symbol) [0x00007FF610353D41]
+	(No symbol) [0x00007FF610354F84]
+	GetHandleVerifier [0x00007FF61085B762+3609346]
+	GetHandleVerifier [0x00007FF6108B1A80+3962400]
+	GetHandleVerifier [0x00007FF6108A9F0F+3930799]
+	GetHandleVerifier [0x00007FF610593CA6+694342]
+	(No symbol) [0x00007FF610472218]
+	(No symbol) [0x00007FF61046E484]
+	(No symbol) [0x00007FF61046E5B2]
+	(No symbol) [0x00007FF61045EE13]
 	BaseThreadInitThunk [0x00007FFA490A257D+29]
 	RtlUserThreadStart [0x00007FFA4B16AA68+40]
 

@@ -7,16 +7,24 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from colorama import Fore, Back, Style, init
 from time import sleep as delay
+from datetime import datetime as time
 from os import system as cmd
-
 import random
+from playsound import playsound
 
-#todo
-#1. facebook button wait unity clickable
+
+
 
 #variables
 proxyList = []
 
+#console colors
+cGreen = Fore.GREEN
+cRed = Fore.RED
+cMagenta = Fore.MAGENTA
+cBlue = Fore.BLUE
+
+#random UA list
 user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/100.0.0.0",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36",
@@ -26,10 +34,9 @@ user_agents = [
     "Mozilla/5.0 (Linux; Android 10; SM-G970U) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/100.0.0.0 Mobile Safari/537.36",
 ]
 
-cGreen = Fore.GREEN
-cRed = Fore.RED
-cMagenta = Fore.MAGENTA
-cBlue = Fore.BLUE
+
+
+
 
 #Setup
 cmd("title TicketFuck v1 - FuckFile")
@@ -40,70 +47,56 @@ proxyPath = input("Enter proxy file: ")
 timeout_seconds = int(input("Timeout: "))
 cmd("cls")
 
-
 #Read Proxy file and adds to array
 with open(f'{proxyPath}', 'r') as proxyFile:
     for proxy in proxyFile:
         proxyList.append(proxy.strip())
 
+
+
+
+
+
+#Functions
+#Error handling + Error to log in local dir
 def errorLog(error):
     with open("Error Log.txt", 'a') as file:
         file.write(str(error) + '\n\n\n')
 
+
+
+#program main
 def checkTicket(link):
     #Scope variables
     ticketlinks = []
-
     proxyForGet = random.choice(proxyList)
 
-    #Browser setup - 
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument("--proxy-server=%s" % proxyForGet) # Add the proxy as argument 
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled") # Adding argument to disable the AutomationControlled flag 
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"]) # Exclude the collection of enable-automation switches 
-    chrome_options.add_experimental_option("useAutomationExtension", False) # Turn-off userAutomationExtension
-    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    browser = webdriver.Chrome(options=chrome_options)
 
-    random_UA = random.choice(user_agents) # Getting Random UA
-    browser.execute_cdp_cmd("Network.setUserAgentOverride", {"userAgent": random_UA}) # Using choisen UA
-    browser.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})") # Changing the property of the navigator value for webdriver to undefined 
+
+    #Setup - browser/antibot
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--proxy-server=%s" % proxyForGet) #Add the proxy as argument 
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled") #Adding argument to disable the AutomationControlled flag 
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"]) #Exclude the collection of enable-automation switches 
+    chrome_options.add_experimental_option("useAutomationExtension", False) #Turn-off userAutomationExtension
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    browser = webdriver.Chrome(options=chrome_options)#Add set options to Chrome
+    random_UA = random.choice(user_agents) #Getting Random UA
+    browser.execute_cdp_cmd("Network.setUserAgentOverride", {"userAgent": random_UA}) #Using choisen UA
+    browser.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})") #Changing the property of the navigator value for webdriver to undefined 
     browser.get(link)
 
 
+    #initial info
     cmd("cls")
     print(cBlue + "Browser setup complete")
     print(cBlue + f"using proxy: {proxyForGet} with User-Agent: {random_UA}")
 
  
-    #Trying to find a ticket
-    try:
-
-        """"
-        #checks if website loads within the timeout time
-        try:
-            print("Website Loading time check")
-            checkLoading = browser.find_elements(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div[2]/div[5]/button[2]')
-            timeoutCheck = WebDriverWait(browser, timeout=timeout_seconds).until(EC.element_to_be_clickable(checkLoading))
-            print("Website loaded")
-        except Exception as e:
-                print(f"Page did not load within {timeout_seconds} seconds. Error: {str(e)}")
-        """
-
-        tickets = browser.find_elements(By.CSS_SELECTOR, 'a[data-testid="listing"]')
-        print("Listing found")
-    except Exception as e:
-        if not e == 0:
-            print(cRed + f"Error: {e}")
-            errorLog(e)
-            browser.quit|()
-            return
-        else:
-            print(f"page took longer then {timeout_seconds} secondes to load")
-            browser.quit()
-            return
-
-
+#Trying to find ticket listings
+    
+    tickets = browser.find_elements(By.CSS_SELECTOR, 'a[data-testid="listing"]')
+    print("Listing found")
     
     for ticket in tickets:
         print(Fore.GREEN + ticket.text)
@@ -112,26 +105,56 @@ def checkTicket(link):
 
 
         #Swtitching to new ticket page
+        
         ticket.send_keys(Keys.CONTROL + Keys.RETURN)
         browser.switch_to.window(browser.window_handles[1])
         buyButton = browser.find_element(By.CLASS_NAME, "css-17jso0u")
         buyButton.click()
-        delay(2)
+        delay(timeout_seconds)
 
+        playsound('C://Users//VRK-1//Desktop//code//TSbot//files//audio//Win.wav')
+        cmd("pause")
 
         #Open facebook login page
         #facebook = browser.find_element(By.XPATH, '/html/body/ticketswap-portal[9]/div/div/div/div/div/div/div/button[2]')
-        fblogin = browser.find_element(By.XPATH, '/html/body/ticketswap-portal[9]/div/div/div/div/div/div/div/button[2]')
+        gglogin = browser.find_element(By.CSS_SELECTOR, 'input[aria-label="E-mailadres of telefoonnummer"]')
         #facebook = WebDriverWait(browser, timeout=timeout_seconds).until(EC.element_to_be_clickable(fblogin))
-        print(Fore.GREEN + "Facebook login button found")
+        print(Fore.GREEN + "Google login button found")
         delay(3)
-        r = True
-        if r == True:
-            print(cGreen + "Ticket found!")
-        fblogin.click()
-        delay(500000)
-        #print("facebook click")
-        #fbcookie = browser.find_element(By.XPATH, '//*[@id="u_0_h_ OF"]')
+        gglogin.click()
+        delay(timeout_seconds)
+        gEmail = browser.find_element(By.CLASS_NAME, 'whsOnd')
+        gEmail.send_keys("f4ckbot@gmail.com")
+        gNext = browser.find_element(By.CSS_SELECTOR, "div.VfPpkd-RLmnJb")
+        gNext.click()
+        delay(1)
+        gPass = browser.find_element(By.NAME, "Passwd")
+        gPass.send_keys("3Monsterjam!?")
+        gNext.click()
+        delay(timeout_seconds)
+        TicketToCard = browser.find_element(By.CLASS_NAME, "css-obhtex.e1dvqv261")
+        TicketToCard.click()
+        delay(5)
+        idealButton = browser.find_element(By.ID, "STRIPE_MONEY_MACHINE_IDEAL")
+        idealButton.click()
+        delay(5)
+        rabobank = browser.find_element(By.ID, "rabobank")
+        rabobank.click()
+        delay(5)
+        checkoutButton = browser.find_element(By.CSS_SELECTOR, 'button[type="submit"].css-obhtex.e1dvqv261')
+        checkoutButton.click()
+        delay(10)
+        country = browser.find_element(By.ID, "wrapper-phoneCountry")
+        country.click()
+        delay(2)
+        nederland = browser.find_element(By.ID, ":r1:-149")
+        nederland.click()
+        phone = browser.find_element(By.ID, "phoneNumber")
+        phone.send_keys("0637612945")
+        
+        
+
+
         #print("fb cookie clicked")
         #fbcookie.click()
         
@@ -141,7 +164,7 @@ while True:
         checkTicket(link)
     except Exception as e:
         print(Fore.RED + f"Error: {e}")
-        errorLog(e)
+        errorLog(f"Error occured at {time.now()}!\nError info:\nProxy: {proxy}\n{e}\n\n--------------------------------")
     finally:
         print(Fore.YELLOW + "Loop done!")
         
