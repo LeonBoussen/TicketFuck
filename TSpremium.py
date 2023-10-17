@@ -2,7 +2,8 @@ import requests
 from requests.structures import CaseInsensitiveDict
 from bs4 import BeautifulSoup
 from random import choice
-
+from playsound import playsound
+from os import system as cmd
 
 user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/100.0.0.0",
@@ -24,7 +25,8 @@ def get_all_links(url, proxy):
         if not links:
             print("No Links Found")
         else:
-            
+            cmd(f"start Chrome {links[0]}")
+            playsound('C://Users//VRK-1//Desktop//code//TSbot//files//audio//Win.wav')
             return links[0]
 
 link = input("link: ")
